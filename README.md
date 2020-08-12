@@ -8,6 +8,7 @@ SkyBlox Systems twitter bot retweet
 - Retweet
 - Like tweet
 - Auto follower
+- Auto comment (Soon)
 ```
 
 ## Contributing
