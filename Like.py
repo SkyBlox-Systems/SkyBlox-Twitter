@@ -15,8 +15,9 @@ for tweet in tweepy.Cursor(api.search, search).items(nrTweets):
     try:
         print('tweet liked')
         tweet.favorite()
-        time.sleep(120)
+        time.sleep(60)
     except tweepy.TweepError as e:
+        time.sleep(60)
         print(e.reason)
     except StopIteration:
         break
