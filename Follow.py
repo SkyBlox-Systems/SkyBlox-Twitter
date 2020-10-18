@@ -16,4 +16,4 @@ for follower in followers:
     if num == 1:
         follower.follow()
         print('I just followed ' + follower.screen_name + '!')
-        time.sleep(3000)
+        time.sleep(120)
