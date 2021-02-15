@@ -15,9 +15,9 @@ for tweet in tweepy.Cursor(api.search, ROBLOX).items():
     try:
         tweet.retweet()
         print('tweet retweeted')
-        time.sleep(25)
+        time.sleep(30)
     except tweepy.TweepError as e:
-        time.sleep(5)
+        time.sleep(10)
         print(e.reason)
     except StopIteration:
         break
